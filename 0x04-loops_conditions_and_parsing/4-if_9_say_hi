@@ -2,7 +2,7 @@
 # displays Holberton School 10 times.
 
 COUNTER=0
-while [ $COUNTER -lt 11 ]
+while [ $COUNTER -lt 10 ]
 do
     if [ $COUNTER = 9 ]
     then
