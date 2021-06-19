@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times.
-
-COUNTER=0
-while [ $COUNTER -lt 10 ]
-do
-    if [ $COUNTER = 9 ]
-    then
-        echo "Hi"
-    else
-        echo "Holberton School"
+# Displays 'Holberton School' 10 times buth 9th iterarion displays  'Hi'
+i=0
+while [ $i -lt 10 ]; do
+    echo "Holberton School"
+    if [ $i -eq 8 ]; then
+	echo "Hi"
     fi
-    let COUNTER+=1
+    let "i++"
 done
