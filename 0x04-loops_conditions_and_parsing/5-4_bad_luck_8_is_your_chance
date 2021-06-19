@@ -12,5 +12,5 @@ while [ $i -le 10 ]; do
     else
 	echo "Holberton School"
     fi
-    let "idx++"
+    let "i++"
 done
