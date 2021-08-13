@@ -1,3 +1,4 @@
+# No me funciona voy a colocar comentarios haber
 file { '/tmp/holberton':
   ensure  => 'file',
   mode    => '0744',
